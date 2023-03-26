@@ -1,0 +1,1358 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-image: linear-gradient(to bottom, #a575524f, white, #a575524f);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #A57552;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #795B45;
+}
+
+body{
+    overflow-x: clip;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#inicio {
+    background-image: url(../img/1.png);
+    background-size: cover;
+}
+
+#inicio div {
+    background-color: rgba(255, 255, 255, 0.750);
+    display: block;
+    line-height: 6em;
+    padding: 3em 0 1em;
+    height: 95vh;
+}
+
+#inicio h1 {
+    letter-spacing: 40px;
+    margin-inline-start: 30px;
+}
+
+#inicio h1 {
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    color: #A57552;
+    font-size: 110px;
+    text-align: center;
+}
+
+#inicio h1>span {
+    display: inline-block;
+    font-size: 110px;
+    letter-spacing: normal;
+    width: 100%;
+    margin-bottom: 0.3em;
+    margin-inline-start: -30px;
+}
+
+#inicio h1>span span {
+    text-transform: lowercase;
+    font-size: 60px;
+}
+
+#inicio h2 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5em;
+    font-weight: 600;
+    width: 60%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#inicio h3 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: center;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+#inicio h2 {
+    margin-bottom: 1em;
+}
+
+#inicio h3 {
+    margin-bottom: 0.5em;
+}
+
+#inicio div div {
+    background-color: transparent;
+    text-align: center;
+    height: fit-content;
+}
+
+#inicio a {
+    background-color: #A57552;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: 50%;
+    padding: 1em 3em;
+}
+
+#inicio a:hover {
+    box-shadow: 0px 0px 20px 10px #A57552;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    padding: 1em 5em;
+}
+
+@media screen and (min-width: 1400px) {
+    #inicio div {
+        padding: 3em 0 1em;
+        line-height: 7em;
+    }
+
+    #inicio h1 {
+        font-size: 130px;
+    }
+
+    #inicio h1 span {
+        font-size: 130px;
+        margin-bottom: 0.2em;
+    }
+
+    #inicio h1 span span {
+        font-size: 80px;
+    }
+
+    #inicio h2 {
+        font-size: 40px;
+    }
+
+    #inicio h3 {
+        font-size: 40px;
+    }
+
+    #inicio h2 {
+        margin-bottom: 1em;
+    }
+
+    #inicio h3 {
+        margin-bottom: -0.1em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #inicio>div {
+        padding: 4em 0 1em;
+        height: 90vh;
+        display: inline-grid;
+        align-items: center;
+        align-content: space-evenly;
+    }
+
+    #inicio h1 span {
+        font-size: 110px;
+        margin-bottom: 0.2em;
+    }
+
+    #inicio h1 span span {
+        font-size: 75px;
+    }
+
+    #inicio h2 {
+        font-size: 35px;
+        width: 90%;
+    }
+
+    #inicio h3 {
+        font-size: 35px;
+        width: 90%;
+    }
+
+    #inicio h3 {
+        margin-bottom: 0.3em;
+    }
+
+    #inicio a:hover {
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #inicio>div {
+        padding: 3em 0 1em;
+    }
+
+    #inicio h1 {
+        font-size: 60px;
+    }
+
+    #inicio h1:nth-child(1) {
+        letter-spacing: 25px;
+        line-height: 1;
+    }
+
+    #inicio h1 span {
+        font-size: 60px;
+        margin-bottom: 0.2em;
+    }
+
+    #inicio h1 span span {
+        font-size: 45px;
+    }
+
+    #inicio h2 {
+        font-size: x-large;
+    }
+
+    #inicio h3 {
+        font-size: x-large;
+    }
+
+    #inicio h3 {
+        margin-bottom: 0;
+    }
+
+    #inicio a {
+        font-size: 25px;
+        width: 40%;
+        padding: 1em 2em;
+    }
+
+    #inicio a:hover {
+        padding: 1em 4em;
+    }
+
+    #inicio div div {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #inicio>div {
+        padding: 3em 0 1em;
+    }
+
+    #inicio h1 {
+        font-size: 55px;
+    }
+
+    #inicio h1:nth-child(1) {
+        letter-spacing: 20px;
+    }
+
+    #inicio h1 span {
+        font-size: 55px;
+        margin-bottom: 0.8em;
+    }
+
+    #inicio h1 span span {
+        font-size: 40px;
+    }
+
+    #inicio h2 {
+        font-size: x-large;
+        line-height: 1;
+    }
+
+    #inicio h3 {
+        font-size: x-large;
+        line-height: 1;
+    }
+
+    #inicio h3 {
+        margin-bottom: 0.2em;
+    }
+
+    #inicio a {
+        font-size: 20px;
+        width: 40%;
+        padding: 1em 2em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #inicio h1 {
+        font-size: 50px;
+        margin-inline-start: 20px;
+    }
+
+    #inicio h1:nth-child(1) {
+        letter-spacing: 15px;
+    }
+
+    #inicio h1 span {
+        font-size: 45px;
+        margin-bottom: 0.8em;
+    }
+
+    #inicio h1 span span {
+        font-size: 30px;
+    }
+
+    #inicio a {
+        font-size: 20px;
+        width: 40%;
+        padding: 1em 2em;
+    }
+
+    #inicio a:hover {
+        width: 50%;
+        padding: 1em 3em;
+    }
+}
+
+#step2 {
+    background-image: linear-gradient(to bottom, #a575524f, white, #a575524f);
+}
+
+#step2 #top {
+    padding: 5em 0 1em;
+    line-height: 6em;
+}
+
+#step2 h1 {
+    color: #A57552;
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-weight: 200;
+    letter-spacing: 19px;
+}
+
+#step2 h1>span {
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    font-weight: 800;
+}
+
+#step2 h1>span span {
+    text-transform: lowercase;
+    font-size: 60px;
+}
+
+#step2 h3 {
+    font-size: xx-large;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    line-height: 2;
+}
+
+#step2 .areaItens {
+    display: flex;
+}
+
+#step2 .itens {
+    display: flex;
+    align-items: center;
+    margin: 1em auto;
+    margin-top: 0;
+    width: 40%;
+}
+
+#step2 .itens i {
+    font-size: 70px;
+    color: #A57552;
+    margin-inline-end: 0.2em;
+}
+
+#step2 .itens p {
+    font-size: x-large;
+}
+
+#step2 hr {
+    margin: 3em 15em 1em;
+    display: block;
+    border: 3px solid;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#step2 h2 {
+    color: #A57552;
+    font-size: 70px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-bottom: -0.5em;
+}
+
+#step2 img {
+    width: 100%;
+    object-fit: contain;
+    height: 500px;
+    margin-bottom: 1em;
+}
+
+#step2 #horario {
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+
+#step2 #horario i {
+    visibility: hidden;
+}
+
+#step2 #horario p {
+    font-size: x-large;
+    margin-top: -3em;
+}
+
+@media screen and (max-width: 900px) {
+    #step2 h1 {
+        font-size: 70px;
+        letter-spacing: 16px;
+    }
+
+    #step2 h1>span span {
+        font-size: 50px;
+    }
+
+    #step2 h3 {
+        margin-bottom: 1em;
+    }
+
+    #step2 hr {
+        margin: 4em 10em 1em;
+    }
+
+    #step2 .areaItens {
+        display: grid;
+    }
+
+    #step2 .itens {
+        width: 80%;
+        margin: 0.5em auto;
+    }
+
+    #step2 .itens p {
+        font-size: xx-large;
+    }
+
+    #step2 h2 {
+        font-size: 65px;
+    }
+
+    #step2 #horario p {
+        font-size: xx-large;
+        margin-top: -1em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #step2 h1 {
+        font-size: 45px;
+        letter-spacing: 7px;
+        line-height: 1.2;
+    }
+
+    #step2 h1>span {
+        font-size: 40px;
+    }
+
+    #step2 h1>span span {
+        font-size: 30px;
+    }
+
+    #step2 h3 {
+        margin-top: 1em;
+        font-size: x-large;
+        margin-bottom: 1em;
+        line-height: 1;
+    }
+
+    #step2 hr {
+        margin: 3em 5em 1em;
+    }
+
+    #step2 .itens {
+        width: 90%;
+        margin: 0.5em auto;
+    }
+
+    #step2 .itens i {
+        font-size: 60px;
+        margin-inline-end: 0.2em;
+    }
+
+    #step2 .itens p {
+        font-size: x-large;
+        margin-right: 0.5em;
+    }
+
+    #step2 h2 {
+        font-size: 35px;
+    }
+
+    #step2 #horario p {
+        font-size: x-large;
+    }
+
+    #step2 #horario {
+        margin-top: 0;
+    }
+
+    #step2 img {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #step2 h1 {
+        font-size: 40px;
+        letter-spacing: 5px;
+        line-height: 1.2;
+    }
+
+    #step2 h1>span {
+        font-size: 35px;
+    }
+
+    #step2 h3 {
+        font-size: x-large;
+        margin: 1em 0.5em;
+    }
+
+    #step2 h2 {
+        font-size: 32px;
+    }
+}
+
+#depoimentos {
+    background-image: linear-gradient(to bottom, #a575524f, white, #a575524f);
+    text-align: -webkit-center;
+}
+
+#depoimentos h2 {
+    color: #A57552;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#depoimentos .areaDepoimentos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#depoimentos .depoimento {
+    display: flex;
+    padding: 2em;
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 5em;
+}
+
+#depoimentos .depoimento:nth-child(5) {
+    margin-bottom: 0em;
+}
+
+#depoimentos .depoimento>img {
+    width: 100px;
+    height: 100px;
+}
+
+#depoimentos .depoimento div span {
+    float: left;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+    margin-inline-start: 1.5em;
+}
+
+#depoimentos .depoimento div img {
+    width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    #depoimentos h2 {
+        font-size: 50px;
+        margin-bottom: 2em;
+    }
+
+    #depoimentos .areaDepoimentos {
+        display: grid;
+        justify-items: center;
+    }
+
+    #depoimentos .depoimento>img {
+        width: 80px;
+        height: 80px;
+    }
+
+    #depoimentos .depoimento {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #depoimentos h2 {
+        font-size: xx-large;
+        margin: auto 1em 2em;
+    }
+
+    #depoimentos .areaDepoimentos {
+        display: grid;
+        justify-items: center;
+    }
+
+    #depoimentos .depoimento>img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #depoimentos .depoimento div span {
+        font-size: large;
+        margin-inline-start: 1em;
+    }
+
+    #depoimentos .depoimento {
+        width: 80%;
+        padding: 1em;
+        margin-bottom: 3em;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #depoimentos h2 {
+        font-size: xx-large;
+        margin: auto 0.5em 2em;
+    }
+
+    #depoimentos .depoimento {
+        width: 85%;
+        padding: 1em;
+        margin-bottom: 3em;
+    }
+}
+
+#conteudo {
+    background-image: linear-gradient(to bottom, #a575524f, white, #a575524f);
+    padding-bottom: 4em;
+}
+
+#conteudo h1 {
+    color: #795B45;
+    font-size: 70px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    line-height: 1;
+}
+
+#conteudo hr {
+    border: 3px solid;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: 60%;
+    display: block;
+    margin: 3em auto 2em;
+}
+
+#conteudo h2 {
+    color: #A57552;
+    font-size: 65px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-bottom: 0.5em;
+    line-height: 1;
+}
+
+#conteudo h3 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#conteudo .areaItens {
+    display: flex;
+}
+
+#conteudo .itens {
+    display: flex;
+    align-items: center;
+    margin: 1em auto 2em;
+    margin-top: 0;
+    width: 40%;
+}
+
+#conteudo .itens i {
+    font-size: 70px;
+    color: #A57552;
+    margin-inline-end: 0.2em;
+}
+
+#conteudo .itens p {
+    font-size: x-large;
+}
+
+#conteudo .itens span {
+    display: block;
+    color: #A61919;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#conteudo #horario {
+    margin-bottom: 0;
+}
+
+#conteudo #horario i {
+    visibility: hidden;
+}
+
+#conteudo #horario p {
+    font-size: x-large;
+    margin-top: -3em;
+}
+
+#conteudo #separado {
+    width: 80%;
+    margin: auto;
+}
+
+#conteudo #separado h3 {
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+#conteudo #separado h3 span {
+    color: #A61919;
+    font-weight: 800;
+}
+
+#conteudo #separado h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: xx-large;
+    color: black;
+    margin-bottom: 0;
+}
+
+#conteudo #separado h2 span {
+    color: #A57552;
+    font-weight: 500;
+}
+
+#conteudo #separado #pagar {
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-top: 0.5em;
+}
+
+#conteudo #preco img {
+    margin-top: 1em;
+    width: 100%;
+    object-fit: contain;
+    height: 500px;
+}
+
+#conteudo #preco h1 {
+    color: #05892A;
+    font-family: 'Playfair Display', serif;
+    font-size: 150px;
+    line-height: 1.3;
+}
+
+#conteudo #preco h1 span {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    display: block;
+    font-weight: 500;
+    letter-spacing: 10px;
+}
+
+#conteudo #preco a {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #05892A;
+    padding: 0.3em;
+    font-weight: bold;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    display: block;
+    width: 55%;
+    text-align: center;
+    margin: 2em auto 0;
+    font-size: 40px;
+}
+
+#conteudo #preco a:hover {
+    box-shadow: 0px 0px 20px 10px #05892A;
+    width: 60%;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+@media screen and (max-width: 900px) {
+    #conteudo {
+        padding-top: 1em;
+        padding-bottom: 7em;
+    }
+
+    #conteudo .areaItens {
+        display: grid;
+    }
+
+    #conteudo .itens {
+        width: 80%;
+    }
+
+    #conteudo .itens p {
+        font-size: xx-large;
+    }
+
+    #conteudo .itens span {
+        font-size: xx-large;
+    }
+
+    #conteudo #horario p {
+        font-size: xx-large;
+        margin-top: -1em;
+    }
+
+    #conteudo #separado {
+        width: 90%;
+        margin: auto;
+    }
+
+    #conteudo #preco a {
+        width: 60%;
+        font-size: xx-large;
+    }
+
+    #conteudo #preco a:hover {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #conteudo {
+        padding-top: 1em;
+        padding-bottom: 4em;
+    }
+
+    #conteudo h1 {
+        font-size: 40px;
+    }
+
+    #conteudo h2 {
+        font-size: 40px;
+        margin-bottom: 1em;
+    }
+
+    #conteudo h3 {
+        font-size: x-large;
+        width: 80%;
+        margin: auto auto 1.2em;
+    }
+
+    #conteudo .itens {
+        width: 80%;
+    }
+
+    #conteudo .itens i {
+        font-size: xxx-large;
+    }
+
+    #conteudo .itens p {
+        font-size: x-large;
+    }
+
+    #conteudo .itens span {
+        font-size: x-large;
+    }
+
+    #conteudo #horario p {
+        font-size: x-large;
+        margin-top: -1em;
+    }
+
+    #conteudo #separado {
+        width: 90%;
+        margin: auto;
+    }
+
+    #conteudo #preco a {
+        width: 60%;
+        font-size: xx-large;
+    }
+
+    #conteudo #preco a:hover {
+        width: 70%;
+    }
+
+    #conteudo #horario p {
+        margin-bottom: -1em;
+    }
+
+    #conteudo #separado {
+        width: 90%;
+    }
+
+    #conteudo #separado h3 {
+        font-weight: 500;
+        font-size: x-large;
+        width: 90%;
+    }
+
+    #conteudo #separado h2 {
+        font-size: x-large;
+    }
+
+    #conteudo #separado #pagar {
+        font-size: x-large;
+    }
+
+    #conteudo #preco img {
+        margin-top: 1em;
+        width: 100%;
+        object-fit: contain;
+        height: 250px;
+    }
+
+    #conteudo #preco h1 {
+        font-size: 100px;
+    }
+
+    #conteudo #preco h1 span {
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: 5px;
+    }
+
+    #conteudo #preco a {
+        width: 80%;
+        font-size: x-large;
+        margin-top: 3em;
+    }
+
+    #conteudo #preco a:hover {
+        width: 90%;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #conteudo .itens {
+        width: 90%;
+    }
+
+    #conteudo #separado {
+        width: 95%;
+    }
+
+    #conteudo #separado h3 {
+        font-weight: 500;
+        font-size: large;
+        width: 95%;
+        margin-top: -1em;
+    }
+
+    #conteudo #separado h2 {
+        font-size: large;
+    }
+
+    #conteudo #separado #pagar {
+        font-size: large;
+    }
+
+    #conteudo #preco h1 {
+        font-size: 80px;
+    }
+
+    #conteudo #preco h1 span {
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+
+    #conteudo #preco a {
+        width: 80%;
+        font-size: x-large;
+        margin-top: 3em;
+    }
+
+    #conteudo #preco a:hover {
+        width: 85%;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+    }
+}
+
+#guia {
+    background-image: linear-gradient(to bottom, #a575524f, white, #a575524f);
+    padding-bottom: 1em;
+}
+
+#guia img {
+    width: 95%;
+    object-fit: contain;
+    height: 700px;
+}
+
+#guia h1 {
+    font-family: 'Playfair Display', serif;
+    color: #A57552;
+    text-align: center;
+    font-size: 80px;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 0.3em;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+#guia>div {
+    width: 80%;
+    font-size: xx-large;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+#guia>div p {
+    margin: 1em auto;
+}
+
+@media screen and (max-width: 1100px) {
+    #guia h1 {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #guia h1 {
+        font-size: 80px;
+        width: 100%;
+        margin: auto auto;
+    }
+
+    #guia>div {
+        width: 90%;
+        font-size: xx-large;
+    }
+
+    #guia>div p {
+        margin: 2em auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #guia img {
+        width: 95%;
+        object-fit: contain;
+        height: 400px;
+    }
+
+    #guia h1 {
+        font-size: xxx-large;
+        margin: auto auto;
+    }
+
+    #guia>div {
+        width: 95%;
+        font-size: large;
+    }
+
+    #guia>div p {
+        margin: 1.5em auto;
+    }
+}
+
+#duvidas {
+    background-image: linear-gradient(to bottom, #a575524f, white, #a575524f);
+    padding: 2em 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#duvidas>#areaDuvida {
+    display: flex;
+    justify-content: space-around;
+}
+
+#duvidas>#areaDuvida div {
+    width: 40%;
+}
+
+#duvidas>#areaDuvida .duvida {
+    width: 100%;
+}
+
+#duvidas h1 {
+    color: #A57552;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 0.2em;
+}
+
+#duvidas h3 {
+    color: #A57552;
+    font-size: xx-large;
+    font-weight: 600;
+    margin: auto;
+}
+
+#duvidas h3 span {
+    margin-inline-end: 1em;
+}
+
+#duvidas h4 {
+    font-size: x-large;
+    font-weight: 500;
+    width: 100%;
+    margin: 0.8em auto;
+}
+
+#duvidas .duvida {
+    margin: 3em auto;
+}
+
+#duvidas div>h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: xxx-large;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+#duvidas div>a {
+    background-color: #05892A;
+    font-size: x-large;
+    padding: 1em;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+#duvidas div>a:hover {
+    box-shadow: 0px 0px 20px 10px #05892A;
+    width: 90%;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+@media screen and (max-width: 900px) {
+    #duvidas h1 {
+        font-size: 60px;
+        margin-bottom: 1em;
+    }
+
+    #duvidas>#areaDuvida {
+        display: grid;
+        justify-items: center;
+    }
+
+    #duvidas>#areaDuvida div {
+        width: 90%;
+        margin: 0;
+    }
+
+    #duvidas>#areaDuvida .duvida {
+        margin: 2em auto;
+        display: inline-block;
+    }
+
+    #duvidas div>a {
+        margin: 2em auto auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #duvidas {
+        padding-bottom: 5em;
+    }
+
+    #duvidas h1 {
+        font-size: 35px;
+        margin-bottom: 1em;
+        font-weight: 800;
+    }
+
+    #duvidas>#areaDuvida div {
+        width: 90%;
+        margin: 0;
+    }
+
+    #duvidas>#areaDuvida .duvida {
+        margin: 1em auto;
+        display: inline-block;
+    }
+
+    #duvidas h3 {
+        font-size: x-large;
+    }
+
+    #duvidas h3 span {
+        margin-inline-end: 1em;
+    }
+
+    #duvidas h4 {
+        font-size: large;
+    }
+
+    #duvidas div>h2 {
+        font-size: xx-large;
+        font-weight: 500;
+        margin-bottom: 0.5em;
+        text-align: center;
+    }
+
+    #duvidas div>a {
+        font-size: large;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #duvidas h1 {
+        font-size: xx-large;
+        margin-bottom: 1em;
+        font-weight: 800;
+    }
+
+    #duvidas div>h2 {
+        font-size: xx-large;
+        font-weight: 500;
+        margin-bottom: 0.5em;
+        text-align: center;
+        line-height: 1;
+    }
+}
+
+footer {
+    background-color: #A57552;
+    padding: 3em 2em 2.5em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+footer h3 {
+    font-weight: 400;
+    margin-bottom: 0.2em;
+}
+
+footer h4 {
+    font-weight: 400;
+}
+
+footer a {
+    color: #A61919;
+}
+
+@media screen and (max-width: 450px){   
+    footer {
+        padding: 3em 2em 3.5em;
+    }
+
+    footer h3 {
+        font-size: medium;
+    }
+    
+    footer h4 {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 390px){
+    footer {
+        padding: 3em 1em 3.5em;
+    }
+
+    footer h3 a {
+        font-size: small;
+    }
+    
+    footer h4 {
+        font-size: x-small;
+    }
+}
